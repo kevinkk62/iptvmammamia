@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.keviniptv" name="kevinkk62 Repo" version="1.0.1" provider-name="kevinkk62">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="kevinkk62 Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/kevinkk62/mammamia/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/kevinkk62/mammamia/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/kevinkk62/mammamia/master/</datadir>
+            <hashes>false</hashes>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>C4Wiz Personal Repo</summary>
+        <description>Home of the Estuary.ModV2-Modified Skin</description>
+        <platform>all</platform>
+    </extension>
+</addon>
